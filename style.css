@@ -33,6 +33,7 @@ main{
 }
 h1{
     color: black;
+    font: 18px;
 }
 .footer{
     background-color: brown;
