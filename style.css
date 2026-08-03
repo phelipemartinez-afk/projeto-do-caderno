@@ -33,3 +33,8 @@ main{
 h1{
     color: black;
 }
+.footer{
+    background-color: brown;
+    padding: 15px 15px;
+    color: aliceblue;
+}
