@@ -29,6 +29,7 @@ main{
 }
 .cabecalho-link{
     color: black;
+    text-decoration: none;
 }
 h1{
     color: black;
