@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.cabecalho{
+
+.cabecalho {
     padding: 15px 15px;
     display: flex;
     justify-content: space-between;
@@ -10,33 +11,59 @@
     background-color: goldenrod;
 }
 
-.cartao{
-width: 260px;
-height: 200px;
+.cartao {
+    width: 260px;
+    height: 200px;
 
 }
-.cartao-imagem{
+
+.cartao-imagem {
     width: 100%;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     min-width: 100vh;
     background-color: darkolivegreen;
 }
-main{
+
+main {
     flex: 1;
 }
-.cabecalho-link{
+
+.cabecalho-link {
     color: black;
     text-decoration: none;
 }
-h1{
+
+h1 {
     color: black;
-    font: 18px;
+    font-size: 18px;
 }
-.footer{
+
+.footer {
     background-color: brown;
     padding: 15px 15px;
     color: aliceblue;
+}
+
+.cartao-interno {
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.cabecalho-hover .cartao-interno{
+    transform: rotateY(180deg);
+
+}
+.cartao-frente, .cartao-verso {
+    position: absolute;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0, 15);
+    backface-visibility: hidden;
+
+}
+.cartao-verso{
+    transform: rotateY(180deg);
 }
