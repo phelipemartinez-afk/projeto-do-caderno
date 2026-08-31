@@ -23,7 +23,7 @@
     }
 
     p{
-        color: goldenrod;
+        color: black;
     }
 
     main {
@@ -93,7 +93,7 @@
         display: flex;
         flex-direction: column;
         min-height: 100vh;
-        background-color: olivedrab;
+        background-color: burlywood;
     }
 
     main {
