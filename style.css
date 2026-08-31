@@ -131,7 +131,7 @@
         position: absolute;
         border-radius: 12px;
         /*Arredonda oss cantos*/
-        box-shadow: 0px 6px 12px darkolivegreen;
+        box-shadow: 0px 6px 12px burlywood;
         /*Coloca uma sombra loca em volta do cartão*/
         backface-visibility: hidden;
     }
